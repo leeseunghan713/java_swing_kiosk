@@ -26,7 +26,7 @@ class Main extends JFrame implements ActionListener {
         firstPanel = new JPanel();
         firstPanel.setLayout(new GridLayout(4, 1)); // 3x1 그리드 설정
 
-        textField1 = new JTextField("선문");
+        textField1 = new JTextField("대");
         textField1.setHorizontalAlignment(JTextField.CENTER);
         textField1.setEditable(false); // 수정 불가능하도록 설정
         firstPanel.add(textField1);
